@@ -1,0 +1,7 @@
+node_modules/*
+coverage/*
+dist/*
+.eslintrc.js
+.eslintrc.backup
+.husky
+.vscode
