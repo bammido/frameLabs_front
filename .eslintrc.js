@@ -3,13 +3,22 @@ module.exports = {
 		browser: true,
 		es2021: true,
 	},
-	extends: ["eslint:recommended", "plugin:react/recommended", "prettier"],
+	extends: [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"prettier",
+		// "eslint:all",
+		// "plugin:react/all",
+	],
 	overrides: [],
 	parserOptions: {
 		ecmaVersion: "latest",
 		sourceType: "module",
+		ecmaFeatures: {
+			jsx: true,
+		},
 	},
-	plugins: ["react"],
+	plugins: ["eslint-plugin-import", "unused-imports", "react", "react-hooks"],
 	settings: {
 		react: {
 			version: "18",
