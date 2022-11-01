@@ -3,13 +3,7 @@ module.exports = {
 		browser: true,
 		es2021: true,
 	},
-	extends: [
-		"eslint:recommended",
-		"plugin:react/recommended",
-		"prettier",
-		// "eslint:all",
-		// "plugin:react/all",
-	],
+	extends: ["eslint:recommended", "plugin:react/recommended", "prettier"],
 	overrides: [],
 	parserOptions: {
 		ecmaVersion: "latest",
@@ -29,6 +23,6 @@ module.exports = {
 		"linebreak-style": ["error", "unix"],
 		quotes: ["error", "double"],
 		semi: ["error", "always"],
-		"no-unused-vars": ["warning"],
+		"no-unused-vars": ["warn"],
 	},
 };
