@@ -20,7 +20,7 @@ module.exports = {
 	},
 	rules: {
 		indent: ["error", "tab"],
-		"linebreak-style": ["warn", "unix"],
+		"linebreak-style": ["error", "unix"],
 		quotes: ["error", "double"],
 		semi: ["error", "always"],
 		"no-unused-vars": ["warn"],
