@@ -3,7 +3,7 @@ import Input from "../../Atoms/input";
 import MainTitle from "../../Atoms/mainTitle";
 import Button from "../../Atoms/button";
 import SignUp from "../../Atoms/signUp";
-import CentralizerDiv from "../../Atoms/centralizerDiv";
+// import CentralizerDiv from "../../Atoms/centralizerDiv";
 import "./style.css";
 
 export default function LoginForm() {

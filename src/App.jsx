@@ -1,11 +1,13 @@
 import React from "react";
 import "./globalStyle.css";
-import Login from "./Pages/Login";
+import Cadastro from "./Pages/Cadastro/Cadastro";
+// import Login from "./Pages/Login";
 
 function App() {
 	return (
 		<>
-			<Login />
+			{/* <Login /> */}
+			<Cadastro />
 		</>
 	);
 }
