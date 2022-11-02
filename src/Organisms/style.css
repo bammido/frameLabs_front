@@ -1,0 +1,21 @@
+.mainDiv {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.login {
+    margin: 40px;
+}
+
+.email,
+.senha {
+    margin: 15px;
+}
+
+.acessar-sistema {
+    margin: 30px;
+}
+
+.signUp {
+    margin: 10px;
+}
