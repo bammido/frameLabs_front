@@ -21,6 +21,12 @@
     "lintFix": "eslint src/**/*.js src/**/*.jsx --fix",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add ."
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
