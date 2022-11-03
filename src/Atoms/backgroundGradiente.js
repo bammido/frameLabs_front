@@ -5,6 +5,8 @@ const BackgroundGradiente = styled.div`
 	width: 100%;
 	min-height: 100vh;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(36, 0, 70, 0.63) 100%),
 		linear-gradient(
 			180deg,
