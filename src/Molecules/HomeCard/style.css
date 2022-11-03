@@ -1,0 +1,36 @@
+.card {
+    width: 295px;
+    height: 82.07px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+}
+
+.descricao {
+    width: 245px;
+
+    padding-left: 13px;
+    padding-top: 8px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.qtd {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #7B2CBF;
+}
