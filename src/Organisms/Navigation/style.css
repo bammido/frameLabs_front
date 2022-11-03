@@ -1,0 +1,13 @@
+.navDiv {
+    height: 76px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #FF6D00;
+}
+
+.iconDiv {
+    position: relative;
+    font-size: 40px;
+    margin: 0 27px;
+}

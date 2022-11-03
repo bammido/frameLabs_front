@@ -1,0 +1,27 @@
+.logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    width: 100%;
+    background: #5A189A;
+}
+
+.headerTitleDiv {
+    height: 78px;
+    background-color: #FF6D00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerTitle {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #000000;
+}

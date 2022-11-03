@@ -1,0 +1,5 @@
+.sectionConteudo {
+    display: flex;
+    flex-grow: 1;
+    background: #5A189A;
+}

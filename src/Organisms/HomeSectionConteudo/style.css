@@ -1,0 +1,11 @@
+.SectionCardsConteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.SectionCardsConteudo>div {
+    margin: 10px;
+}
