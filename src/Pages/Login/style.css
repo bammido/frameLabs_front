@@ -1,11 +1,7 @@
-.voltar {
-    margin: 45px 0;
-}
-
-.cadastroDiv {
+.loginDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-        flex-grow: 1;
+    flex-grow: 1;
 }
