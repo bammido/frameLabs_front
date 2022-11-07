@@ -13,7 +13,7 @@ export default function HeaderLogged(props) {
 				<LogoImageCar />
 			</div>
 			<div className="headerTitleDiv">
-				<LogoTitle className="headerTitle">{title}</LogoTitle>
+				<LogoTitle id="headerTitle">{title}</LogoTitle>
 			</div>
 		</>
 	);

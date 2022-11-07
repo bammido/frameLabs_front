@@ -1,0 +1,26 @@
+.comboBoxCRUDDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eye {
+    margin-right: 6px;
+}
+
+.trash {
+    color: #ff0000;
+}
+
+.comboBoxChildren {
+    margin: 0 6px;
+    margin-top: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
