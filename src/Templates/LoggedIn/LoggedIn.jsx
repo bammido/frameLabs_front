@@ -8,8 +8,10 @@ export default function LoggedInTemplate(props) {
 	return (
 		<>
 			<div className="mainDiv">
-				<HeaderLogged title={title} />
-				{children}
+				<div className="headerBody">
+					<HeaderLogged title={title} />
+					<div className="templateContentDiv">{children}</div>
+				</div>
 				<Navigation />
 			</div>
 		</>
