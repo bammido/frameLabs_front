@@ -11,3 +11,9 @@
     font-size: 40px;
     margin: 0 27px;
 }
+
+@media (min-width: 1217px){
+    .navDiv{
+        display: none;
+    }
+}

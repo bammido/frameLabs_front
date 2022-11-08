@@ -11,9 +11,17 @@ export default function HeaderLogged(props) {
 			<div className="logoDiv">
 				<LogoText />
 				<LogoImageCar />
+				<nav className="menu">
+					<ul className="List">
+						<li className="listItem">Início</li>
+						<li className="listItem">Ordens de serviço</li>
+						<li className="listItem">Serviços</li>
+						<li className="listItem">Sair</li>
+					</ul>
+				</nav>
 			</div>
 			<div className="headerTitleDiv">
-				<LogoTitle className="headerTitle">{title}</LogoTitle>
+				<LogoTitle id="headerTitle">{title}</LogoTitle>
 			</div>
 		</>
 	);

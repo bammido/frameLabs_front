@@ -16,6 +16,7 @@ const Input = styled.input`
 	font-family: "Roboto";
 	font-weight: 400;
 	font-family: "Roboto";
+	margin: 12px 0 12px 0
 	/* font-size: 20px;
 	line-height: 23px; */
 `;

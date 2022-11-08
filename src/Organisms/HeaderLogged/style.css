@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-.headerTitle {
+#headerTitle {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -24,4 +24,55 @@
     text-align: center;
 
     color: #000000;
+}
+
+@media (min-width: 1217px) {
+
+    .logoDiv{
+        /* display: flex;
+        justify-content: flex-start;
+        padding-left: 3rem; */
+        height: 15vh;
+    }
+
+    .logoDiv:nth-child(1){
+        gap: 1.25rem;   
+        font-size: 64px;
+        font-weight: 500;
+    }
+
+    .menu{
+        justify-content: flex-end;
+    }
+
+    .List{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 2.688rem;
+        font-size: 24px;
+        font-family: 'Fira Sans', sans-serif;
+        color: #FFFF;
+        font-weight: 500;
+        margin-left: 46rem;
+    }
+
+    .listItem:nth-child(4){
+        color:#FF9E00;
+        font-weight: bolder;
+    }
+
+    .headerTitleDiv {
+        background-color: #7B2CBF;
+        height: 134px;
+        justify-content: flex-start;
+        padding-left:1.875rem;
+    }
+
+    #headerTitle{
+        color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+    }
+    
 }

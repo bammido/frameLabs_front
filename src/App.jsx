@@ -2,6 +2,7 @@ import React from "react";
 import "./globalStyle.css";
 import Home from "./Pages/Home/Home";
 // import Cadastro from "./Pages/Cadastro/Cadastro";
+import CriarNovaOrdem from "./Pages/CriarNovaOrdem/CriarNovaOrdem";
 // import Login from "./Pages/Login/Login";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
 		<>
 			{/* <Login /> */}
 			{/* <Cadastro /> */}
-			<Home />
+			{/* <Home /> */}
+			<CriarNovaOrdem />
 		</>
 	);
 }
