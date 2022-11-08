@@ -1,6 +1,7 @@
 import React from "react";
 import "./globalStyle.css";
-import ServicesOrderList from "./Pages/ServicesOrderList/ServicesOrderList";
+import ServicesList from "./Pages/ServicesList/ServicesList";
+// import ServicesOrderList from "./Pages/ServicesOrderList/ServicesOrderList";
 
 // import Home from "./Pages/Home/Home";
 // import Cadastro from "./Pages/Cadastro/Cadastro";
@@ -12,7 +13,8 @@ function App() {
 			{/* <Login /> */}
 			{/* <Cadastro /> */}
 			{/* <Home /> */}
-			<ServicesOrderList />
+			{/* <ServicesOrderList /> */}
+			<ServicesList />
 		</>
 	);
 }

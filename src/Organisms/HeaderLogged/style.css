@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 76px;
+    height: 10vh;
     width: 100%;
     background: #5A189A;
 }
 
 .headerTitleDiv {
-    height: 78px;
+    height: 10vh;
     background-color: #FF6D00;
     display: flex;
     align-items: center;
