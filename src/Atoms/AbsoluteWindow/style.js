@@ -24,7 +24,7 @@ export const Modal = styled.div`
 	background: #7b2cbf;
 	border-radius: 10px;
 
-	@media screen and (min-width: 1217px) {
+	@media screen and (min-width: 450px) {
 		transform: scale(0.8);
 	}
 `;

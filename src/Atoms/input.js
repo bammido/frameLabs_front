@@ -5,8 +5,6 @@ const Input = styled.input`
 
 	width: 200px;
 	height: 43px;
-	/* left: 95px;
-	top: 384px; */
 
 	background: #ffffff;
 	border: 1px solid #9d4edd;
@@ -16,8 +14,6 @@ const Input = styled.input`
 	font-family: "Roboto";
 	font-weight: 400;
 	font-family: "Roboto";
-	/* font-size: 20px;
-	line-height: 23px; */
 `;
 
 export default Input;
