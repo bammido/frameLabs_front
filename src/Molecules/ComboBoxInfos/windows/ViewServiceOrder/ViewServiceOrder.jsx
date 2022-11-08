@@ -43,7 +43,7 @@ export default function ViewServiceOrder(props) {
 					</InputDiv>
 					<InputDiv>
 						<Label>E-mail</Label>
-						<InputViewServiceOrder value={email} disabled={!edit} />
+						<InputViewServiceOrder type="email" value={email} disabled={!edit} />
 					</InputDiv>
 					<InfosSpanDiv>
 						<InfosSpan>Status</InfosSpan>
