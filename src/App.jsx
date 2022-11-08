@@ -1,6 +1,9 @@
 import React from "react";
 import "./globalStyle.css";
-import Home from "./Pages/Home/Home";
+import ServicesList from "./Pages/ServicesList/ServicesList";
+// import ServicesOrderList from "./Pages/ServicesOrderList/ServicesOrderList";
+
+// import Home from "./Pages/Home/Home";
 // import Cadastro from "./Pages/Cadastro/Cadastro";
 import CriarNovaOrdem from "./Pages/CriarNovaOrdem/CriarNovaOrdem";
 // import Login from "./Pages/Login/Login";
