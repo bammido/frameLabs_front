@@ -15,6 +15,12 @@
     justify-content: center;
 
 }
+/* @media(max-width: 800px){ */
+    .menu{
+        display: none;
+    }
+    
+/* } */
 
 #headerTitle {
     font-family: 'Fira Sans';
@@ -43,6 +49,7 @@
 
     .menu{
         justify-content: flex-end;
+        display: contents;
     }
 
     .List{

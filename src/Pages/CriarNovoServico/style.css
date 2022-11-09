@@ -1,0 +1,16 @@
+.sectionConteudoCriar {
+    display: flex;
+    flex-grow: 1;
+    background: #5A189A;
+    flex-direction: column;
+}
+
+@media (min-width: 790px) {
+
+    .sectionConteudoCriar{
+        background: #fafafa;
+        width: 100%;
+        color: #e8ddf0
+    }
+}
+

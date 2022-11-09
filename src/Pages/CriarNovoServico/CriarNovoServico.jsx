@@ -1,19 +1,19 @@
 import React from "react";
 import PageTitle from "../../Atoms/PageTitle";
-import NovaOrdemForm from "../../Organisms/NovaOrdemForm/NovaOrdemForm";
+import NovoServicoForm from "../../Organisms/NovaOrdemForm/NovaOrdemForm";
 import LoggedInTemplate from "../../Templates/LoggedIn/LoggedIn";
 import "./style.css";
 
-export default function CriarNovaOrdem() {
+export default function CriarNovoServico() {
 	return (
 		<>
-			<LoggedInTemplate title="Início / Ordens de serviço">
+			<LoggedInTemplate title="Início / Serviços">
 				<section className="sectionConteudoCriar">
 					<div>
-						<PageTitle>Nova Ordem de serviço</PageTitle>
+						<PageTitle>Novo Serviço</PageTitle>
 					</div>
 					<div>
-						<NovaOrdemForm />
+						<NovoServicoForm />
 					</div>
 				</section>
 			</LoggedInTemplate>
