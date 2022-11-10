@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import FormularioOrdemDeServico from "../../Atoms/FormOrdemdeServico";
+import FormularioServico from "../../Atoms/FormServico";
 
 export default function NovaOrdemForm() {
-	return <FormularioOrdemDeServico />;
+	return <FormularioServico />;
 }

@@ -1,4 +1,7 @@
 import React from "react";
+import Price from "../PriceField/PriceField.jsx";
+import PriceField from "../PriceField/style.js";
+// import { PriceField } from "../PriceField/style.js";
 
 import {
 	InputTexto,
@@ -15,7 +18,8 @@ export default function FormularioServico() {
 		<>
 			<Conteudo>
 				<InputTexto placeholder="Nome do serviço" />
-				<InputValor type={"number"} placeholder="Valor" min="0.01" step="0.01" />
+				{/* <InputValor type={"number"} placeholder="Valor" min="0.01" step="0.01" /> */}
+				<PriceField placeholder="Preço" type="number" />
 				<WrapObserv>
 					<Observacoes placeholder="Descrição" />
 				</WrapObserv>
